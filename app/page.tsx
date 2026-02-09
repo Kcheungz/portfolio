@@ -37,17 +37,16 @@ export default function Home() {
           <div className="grid gap-10 md:grid-cols-2 md:items-center">
             <div>
               <p className="text-sm text-zinc-600">
-                IT Generalist • Networking • Automation
+                Software Engineer • Software Developer • IT Generalist • Networking 
               </p>
 
               <h1 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">
-                I fix systems fast, document clearly, and automate repeat work.
+                Kevin Cheung
               </h1>
 
               <p className="mt-4 text-base leading-relaxed text-zinc-600">
-                I specialize in troubleshooting across devices, networks, and
-                services—then turning what I learn into repeatable playbooks and
-                tools.
+                Entry-level Software Engineer with a Bachelor’s degree in Computer Science and hands-on experience building
+backend services, cloud-based APIs, data pipelines, and full-stack applications.
               </p>
 
               <div className="mt-6 flex flex-wrap gap-3">
@@ -64,7 +63,7 @@ export default function Home() {
                   View resume
                 </a>
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/Kcheungz"
                   className="rounded-full border px-5 py-2.5 text-sm font-medium text-zinc-900 hover:bg-zinc-50"
                 >
                   GitHub
@@ -72,13 +71,6 @@ export default function Home() {
               </div>
 
               <div className="mt-6 flex flex-wrap gap-2">
-                <Chip>UniFi</Chip>
-                <Chip>VLANs</Chip>
-                <Chip>DHCP/DNS</Chip>
-                <Chip>Jamf</Chip>
-                <Chip>VoIP</Chip>
-                <Chip>n8n</Chip>
-                <Chip>Windows + Linux</Chip>
               </div>
             </div>
 
@@ -133,7 +125,6 @@ export default function Home() {
         <section id="skills" className="py-12 border-t">
           <h2 className="text-2xl font-semibold tracking-tight">Skills</h2>
           <p className="mt-2 text-zinc-600">
-            The stuff I’m comfortable touching in production without panicking.
           </p>
 
           <div className="mt-6 grid gap-4 md:grid-cols-3">
@@ -150,9 +141,9 @@ export default function Home() {
               </p>
             </div>
             <div className="rounded-2xl border p-5">
-              <h3 className="font-semibold">Automation</h3>
+              <h3 className="font-semibold">Programming Languages</h3>
               <p className="mt-2 text-sm text-zinc-600">
-                n8n workflows, repeatable checklists, lightweight internal tooling.
+                Java, Go, Python, C++, JavaScript
               </p>
             </div>
           </div>
@@ -162,7 +153,6 @@ export default function Home() {
         <section id="work" className="py-12 border-t">
           <h2 className="text-2xl font-semibold tracking-tight">Featured work</h2>
           <p className="mt-2 text-zinc-600">
-            I’ll add the full projects next—this is the “landing page that already looks hired.”
           </p>
 
           <div className="mt-6 grid gap-4 md:grid-cols-3">
@@ -188,19 +178,19 @@ export default function Home() {
               Let’s talk
             </h2>
             <p className="mt-2 text-zinc-600">
-              Best way to reach me: email + LinkedIn.
+              Best way to reach me: email.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 className="rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white hover:bg-zinc-800"
-                href="mailto:you@example.com"
+                href="cheung.kevin20@gmail.com"
               >
                 Email me
               </a>
               <a
                 className="rounded-full border px-5 py-2.5 text-sm font-medium hover:bg-white"
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/kcheung20/"
               >
                 LinkedIn
               </a>
