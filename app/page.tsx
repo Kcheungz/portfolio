@@ -11,20 +11,26 @@ function Chip({ children }: { children: React.ReactNode }) {
 function Card({
   title,
   desc,
+  href,
 }: {
   title: string;
   desc: string;
+  href: string;
 }) {
   return (
-    <div className="rounded-2xl border bg-white p-6 shadow-sm">
+    <a
+      href={href}
+      className="block rounded-2xl border bg-white p-6 shadow-sm hover:bg-zinc-50"
+    >
       <h3 className="text-lg font-semibold">{title}</h3>
       <p className="mt-2 text-sm leading-relaxed text-zinc-600">{desc}</p>
       <div className="mt-4 text-sm text-zinc-700">
-        <span className="underline underline-offset-4">Coming soon</span>
+        <span className="underline underline-offset-4">Open project</span>
       </div>
-    </div>
+    </a>
   );
 }
+
 
 export default function Home() {
   return (
@@ -126,14 +132,17 @@ backend services, cloud-based APIs, data pipelines, and full-stack applications.
             <Card
               title="Network Troubleshooting Toolkit"
               desc="A web tool that generates structured ticket notes and helps isolate common LAN/Wi-Fi issues."
+              href="/projects/network-toolkit"
             />
             <Card
               title="Home-Lab Status Dashboard"
               desc="A small dashboard for service health checks, visibility, and ops awareness."
+              href="/projects/lab-dashboard"
             />
             <Card
               title="Onboarding Automation Generator"
               desc="Generates onboarding checklists + access matrices based on role templates."
+              href="/projects/onboarding-generator"
             />
           </div>
         </section>
