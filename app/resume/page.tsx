@@ -18,7 +18,6 @@ export default function ResumePage() {
         </div>
 
         <p className="mt-3 text-zinc-600">
-          Embedded below for quick viewing.
         </p>
 
         <div className="mt-6 overflow-hidden rounded-2xl border bg-white">
