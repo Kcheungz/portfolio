@@ -74,50 +74,17 @@ backend services, cloud-based APIs, data pipelines, and full-stack applications.
               </div>
             </div>
 
-            {/* “Visual” panel without needing images */}
-            <div className="rounded-3xl border bg-gradient-to-b from-zinc-50 to-white p-6 shadow-sm">
-              <div className="rounded-2xl border bg-white p-5">
-                <p className="text-xs font-medium text-zinc-500">
-                  RECENT FOCUS
-                </p>
-                <ul className="mt-3 space-y-3 text-sm">
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1 inline-block h-2 w-2 rounded-full bg-zinc-900" />
-                    <span>
-                      Diagnosing intermittent network/device issues (fast isolation,
-                      clean ticket notes).
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1 inline-block h-2 w-2 rounded-full bg-zinc-900" />
-                    <span>
-                      Building lightweight tools for troubleshooting and ops visibility.
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1 inline-block h-2 w-2 rounded-full bg-zinc-900" />
-                    <span>
-                      Process automation and “make it repeatable” playbooks.
-                    </span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="mt-4 grid gap-4 sm:grid-cols-2">
-                <div className="rounded-2xl border bg-white p-4">
-                  <p className="text-xs font-medium text-zinc-500">STYLE</p>
-                  <p className="mt-2 text-sm text-zinc-700">
-                    Calm under pressure. Obsessed with root cause.
-                  </p>
-                </div>
-                <div className="rounded-2xl border bg-white p-4">
-                  <p className="text-xs font-medium text-zinc-500">OUTPUT</p>
-                  <p className="mt-2 text-sm text-zinc-700">
-                    Fix + notes + prevention (not just heroics).
-                  </p>
-                </div>
+            {/* Photo panel */}
+            <div className="rounded-3xl border bg-zinc-50 p-6 shadow-sm">
+              <div className="overflow-hidden rounded-2xl border bg-white">
+                <img
+                  src="/me.png"
+                  alt="Kevin headshot"
+                  className="h-[420px] w-full object-cover"
+                />
               </div>
             </div>
+
           </div>
         </section>
 
@@ -129,9 +96,9 @@ backend services, cloud-based APIs, data pipelines, and full-stack applications.
 
           <div className="mt-6 grid gap-4 md:grid-cols-3">
             <div className="rounded-2xl border p-5">
-              <h3 className="font-semibold">Networking</h3>
+              <h3 className="font-semibold">Software Development</h3>
               <p className="mt-2 text-sm text-zinc-600">
-                VLANs, DHCP/DNS, Wi-Fi tuning, device adoption, troubleshooting via OSI.
+                Backend-focused software engineer building scalable cloud APIs and data pipelines.
               </p>
             </div>
             <div className="rounded-2xl border p-5">
@@ -143,7 +110,7 @@ backend services, cloud-based APIs, data pipelines, and full-stack applications.
             <div className="rounded-2xl border p-5">
               <h3 className="font-semibold">Programming Languages</h3>
               <p className="mt-2 text-sm text-zinc-600">
-                Java, Go, Python, C++, JavaScript
+                Java, Go, Python, C++, JavaScript, Node.js,
               </p>
             </div>
           </div>
@@ -178,7 +145,7 @@ backend services, cloud-based APIs, data pipelines, and full-stack applications.
               Let’s talk
             </h2>
             <p className="mt-2 text-zinc-600">
-              Best way to reach me: email.
+              Best way to reach me is by email : cheung.kevin20@gmail.com.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
