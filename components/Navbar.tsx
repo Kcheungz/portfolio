@@ -10,12 +10,9 @@ export default function Navbar() {
           <a className="hover:text-zinc-950" href="#skills">Skills</a>
           <a className="hover:text-zinc-950" href="#work">Work</a>
           <a className="hover:text-zinc-950" href="#contact">Contact</a>
-          <a
-            className="rounded-full border px-4 py-2 text-zinc-900 hover:bg-zinc-50"
-            href="/resume"
-          >
+            <a className="rounded-full border px-4 py-2 text-zinc-900 hover:bg-zinc-50" href="/resume">
             Resume
-          </a>
+            </a>
         </nav>
       </div>
     </header>
